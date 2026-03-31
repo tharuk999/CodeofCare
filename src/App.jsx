@@ -1,4 +1,5 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import ScrollToTop from './components/ScrollToTop';
 import Nav from './components/Nav';
 import Home from './pages/Home';
 import Nature from './pages/Nature';
@@ -10,6 +11,7 @@ import Economy from './pages/Economy';
 export default function App() {
   return (
     <BrowserRouter>
+      <ScrollToTop />
       <div className="min-h-screen bg-surface font-body text-on-surface">
         <Nav />
         <Routes>

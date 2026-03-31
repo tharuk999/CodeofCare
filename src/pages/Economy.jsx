@@ -69,12 +69,12 @@ export default function Economy() {
               </article>
 
               {/* CTA */}
-              <div className="mt-20 md:mt-24 flex justify-center">
+              {/* <div className="mt-20 md:mt-24 flex justify-center">
                 <button className="bg-gradient-to-br from-primary to-primary-container text-on-primary px-8 md:px-10 py-4 md:py-5 rounded-xl font-body font-medium flex items-center gap-3 hover:opacity-90 transition-all shadow-lg shadow-primary/10">
                   Download the Full Code
                   <span className="material-symbols-outlined">arrow_downward</span>
                 </button>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

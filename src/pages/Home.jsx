@@ -73,7 +73,7 @@ export default function Home() {
           <div className="max-w-6xl text-left border-l-4 border-secondary/20 pl-8 md:pl-12 py-4">
             <p className="font-headline text-lg md:text-xl lg:text-2xl leading-[1.8] text-on-surface-variant max-w-4xl">
               In this emerging era, our definitions of progress must transition from extraction to
-              cultivation. We are building systems that honor the intricate web of life—recognizing
+              cultivation. We are building systems that honor the intricate web of life-recognizing
               that the health of our economies is inseparable from the vitality of our soil, the
               strength of our communities, and the clarity of our individual purpose.
             </p>
@@ -178,12 +178,12 @@ export default function Home() {
             Will you grow with us?
           </h2>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 md:gap-6">
-            <button className="bg-primary hover:bg-primary-container text-white px-8 md:px-10 py-4 rounded-xl font-body font-semibold transition-all duration-300 flex items-center gap-3">
+            {/* <button className="bg-primary hover:bg-primary-container text-white px-8 md:px-10 py-4 rounded-xl font-body font-semibold transition-all duration-300 flex items-center gap-3">
               Inquire for Membership
               <span className="material-symbols-outlined text-sm">arrow_forward</span>
-            </button>
+            </button> */}
             <button className="text-primary hover:text-secondary px-8 md:px-10 py-4 font-body font-semibold transition-all duration-300 border-b border-transparent hover:border-secondary">
-              Read the Manifesto
+              <a href='#'> Read the Manifesto</a>
             </button>
           </div>
         </section>

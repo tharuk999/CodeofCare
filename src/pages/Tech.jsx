@@ -66,17 +66,17 @@ export default function Tech() {
               stimulation, and algorithms that prioritize human agency over automated efficiency. We
               are the architects of the silent spaces between nodes.
             </p>
-            <div className="mt-16 md:mt-20 flex items-center space-x-6 group cursor-pointer">
+            {/* <div className="mt-16 md:mt-20 flex items-center space-x-6 group cursor-pointer">
               <div className="h-px w-12 bg-outline-variant transition-all duration-500 group-hover:w-24 group-hover:bg-secondary" />
               <span className="font-body text-sm tracking-widest uppercase text-outline group-hover:text-secondary transition-colors">
                 Read the full manifesto
               </span>
-            </div>
+            </div> */}
           </div>
         </section>
 
         {/* Bottom Quote */}
-        <section className="mt-40 md:mt-60 mb-10 md:mb-20 px-6 md:px-12 text-center">
+        {/* <section className="mt-40 md:mt-60 mb-10 md:mb-20 px-6 md:px-12 text-center">
           <div className="max-w-2xl mx-auto py-16 md:py-24 border-y border-outline-variant/10">
             <span className="material-symbols-outlined text-secondary text-4xl mb-6 md:mb-8 block">
               auto_awesome
@@ -86,7 +86,7 @@ export default function Tech() {
               the fabric of everyday life until they are indistinguishable from it."
             </blockquote>
           </div>
-        </section>
+        </section> */}
       </main>
 
       <Footer />

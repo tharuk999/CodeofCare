@@ -58,11 +58,11 @@ export default function Self() {
           {/* Sidebar Quote */}
           <div className="md:col-start-2 md:col-span-4 hidden md:block">
             <div className="border-l-2 border-secondary/20 pl-8 mt-12">
-              <span className="block font-headline italic text-xl md:text-2xl text-secondary mb-4">
-                "The quiet is where the work begins."
-              </span>
+              <img className="block font-headline italic text-xl md:text-2xl text-secondary mb-4 rounded-2xl"
+              src="https://images.pexels.com/photos/5537274/pexels-photo-5537274.jpeg"
+              />
               <span className="block font-body text-xs tracking-widest text-primary/40 uppercase">
-                Aphorism III.IV
+                Self
               </span>
             </div>
           </div>
@@ -77,7 +77,7 @@ export default function Self() {
               the sanctity of our own consciousness, ensuring that our contributions remain
               deliberate, meaningful, and deeply human.
             </p>
-            <div className="mt-16 md:mt-20">
+            {/* <div className="mt-16 md:mt-20">
               <a href="#" className="inline-flex items-center gap-4 group">
                 <span className="bg-primary text-on-primary px-6 md:px-8 py-4 rounded-xl font-body text-sm font-medium tracking-wide group-hover:bg-primary-container transition-all">
                   Download the Ethos
@@ -86,7 +86,7 @@ export default function Self() {
                   arrow_forward
                 </span>
               </a>
-            </div>
+            </div> */}
           </div>
         </section>
       </main>

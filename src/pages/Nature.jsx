@@ -60,7 +60,7 @@ export default function Nature() {
               demanding masters. This is the code of care: a commitment to building a future that
               feels fundamentally human, even in its most complex digital forms.
             </p>
-            <div className="mt-12 md:mt-16 flex justify-end">
+            {/* <div className="mt-12 md:mt-16 flex justify-end">
               <a className="group flex items-center gap-4 text-secondary font-medium tracking-wide" href="#">
                 <span className="border-b border-secondary/20 group-hover:border-secondary transition-colors pb-1">
                   Download the full Ethics PDF
@@ -69,7 +69,7 @@ export default function Nature() {
                   arrow_right_alt
                 </span>
               </a>
-            </div>
+            </div> */}
           </div>
         </section>
 
