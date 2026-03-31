@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Community Code of Care - Future Code of Care</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,300;0,400;0,700;1,300&amp;family=Manrope:wght@300;400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "tertiary-fixed-dim": "#d2c5b1",
+              "surface-variant": "#dbe4e2",
+              "outline": "#727973",
+              "error-container": "#ffdad6",
+              "on-primary": "#ffffff",
+              "surface-container-highest": "#dbe4e2",
+              "inverse-on-surface": "#eaf3f0",
+              "on-secondary-fixed-variant": "#75331c",
+              "secondary-fixed": "#ffdbd0",
+              "on-primary-fixed-variant": "#324c3e",
+              "inverse-surface": "#293230",
+              "tertiary": "#322a1d",
+              "primary-fixed-dim": "#b0cdbb",
+              "on-secondary-fixed": "#390c00",
+              "on-surface-variant": "#424844",
+              "on-secondary-container": "#78361e",
+              "on-secondary": "#ffffff",
+              "on-primary-fixed": "#062014",
+              "surface-dim": "#d3dcd9",
+              "on-tertiary-fixed-variant": "#4e4637",
+              "primary": "#173124",
+              "on-primary-container": "#98b5a3",
+              "background": "#f2fbf8",
+              "outline-variant": "#c2c8c2",
+              "primary-container": "#2d4739",
+              "tertiary-container": "#494032",
+              "on-tertiary-container": "#b9ac99",
+              "on-surface": "#151d1c",
+              "surface-tint": "#496455",
+              "tertiary-fixed": "#efe1cc",
+              "on-error": "#ffffff",
+              "primary-fixed": "#ccead6",
+              "surface-container-high": "#e1eae7",
+              "secondary-container": "#fea182",
+              "surface": "#f2fbf8",
+              "secondary": "#924a31",
+              "surface-container-low": "#ecf6f3",
+              "error": "#ba1a1a",
+              "surface-container-lowest": "#ffffff",
+              "on-background": "#151d1c",
+              "on-tertiary": "#ffffff",
+              "inverse-primary": "#b0cdbb",
+              "surface-container": "#e7f0ed",
+              "on-error-container": "#93000a",
+              "surface-bright": "#f2fbf8",
+              "secondary-fixed-dim": "#ffb59d",
+              "on-tertiary-fixed": "#211b0e"
+            },
+            fontFamily: {
+              "headline": ["Noto Serif"],
+              "body": ["Manrope"],
+              "label": ["Manrope"]
+            },
+            borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+          },
+        },
+      }
+    </script>
+<style>
+        body {
+            background-color: #f2fbf8;
+            color: #151d1c;
+            -webkit-font-smoothing: antialiased;
+        }
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .editorial-spacing {
+            margin-left: 8.5rem;
+            margin-right: 8.5rem;
+        }
+        @media (max-width: 768px) {
+            .editorial-spacing {
+                margin-left: 1.5rem;
+                margin-right: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body class="font-body selection:bg-secondary-fixed selection:text-on-secondary-fixed">
+<!-- TopNavBar -->
+<nav class="fixed top-0 w-full z-50 bg-[#f2fbf8]/60 backdrop-blur-md">
+<div class="flex justify-between items-center px-12 py-6 w-full max-w-[1440px] mx-auto">
+<a class="text-2xl font-headline italic font-bold tracking-tight text-primary" href="#">Future Code of Care</a>
+<div class="hidden md:flex items-center gap-12">
+<a class="text-primary/70 hover:text-primary transition-colors font-body" href="#">Essays</a>
+<a class="text-primary/70 hover:text-primary transition-colors font-body" href="#">Arboretum</a>
+<a class="text-secondary font-medium border-b-2 border-secondary pb-1 font-body" href="#">Philosophy</a>
+<a class="text-primary/70 hover:text-primary transition-colors font-body" href="#">Archive</a>
+</div>
+<div class="flex items-center gap-4">
+<button class="p-2 text-primary hover:opacity-80 transition-opacity">
+<span class="material-symbols-outlined">menu</span>
+</button>
+</div>
+</div>
+</nav>
+<main class="pt-40 pb-20">
+<!-- Hero Section -->
+<header class="editorial-spacing mb-32">
+<div class="max-w-4xl">
+<span class="text-secondary font-semibold tracking-widest text-xs uppercase mb-6 block">Our Ethos</span>
+<h1 class="font-headline text-6xl md:text-8xl text-primary leading-[1.1] font-light">Community<br/><span class="italic">Code of Care</span></h1>
+</div>
+</header>
+<!-- Asymmetric Visual Anchor -->
+<section class="mb-40 relative px-6 md:px-0">
+<div class="grid grid-cols-1 md:grid-cols-12 gap-0 items-end">
+<div class="md:col-start-2 md:col-span-10 lg:col-start-3 lg:col-span-9 aspect-[21/9] overflow-hidden rounded-xl bg-surface-container-low shadow-sm">
+<img class="w-full h-full object-cover opacity-90 mix-blend-multiply grayscale hover:grayscale-0 transition-all duration-1000" data-alt="Soft ethereal photograph of people sitting in a sun-drenched architectural space with indoor trees, warm hazy light, and peaceful collaboration" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAsJ7ITEZiGJDqvDkRtvpJSaeQE2TLwG5lfIc5CSEf-MgOYYaKuNTT_8104Mh1dEHHynUOIe1tSbgRo3s7yuZlGXy1v7NpIOOwm-L8gwdMtYgpbmh8ZejU2DZxSq8RgxvHKkD4NeJeL12CT07LbrFrlNCC-K_x8MptYQ7KFzg4NtJMyfEN2GgKjouHVMSgI6Ap7Xa2pxe39ppWylgoc8a28HVxuw2CGOt-S1BpymsOkB7i8-_u1QewjYgPJ91M-erwsBOm-mBkRUeU"/>
+</div>
+</div>
+</section>
+<!-- Focused Narrative Content -->
+<article class="editorial-spacing mb-40">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
+<div class="lg:col-start-3 lg:col-span-8">
+<div class="space-y-24">
+<!-- Paragraph One -->
+<div class="relative">
+<span class="absolute -left-12 top-2 text-secondary-fixed-dim font-headline text-4xl hidden lg:block opacity-40">01</span>
+<p class="font-headline text-3xl md:text-4xl lg:text-5xl leading-tight text-primary font-light">
+                                In the cultivation of our digital landscapes, we recognize that care is not a static policy but a living practice—one that requires constant nurturing and mutual attention. We commit to a space where professional rigor meets human softness, fostering an environment where ideas are grown with patience rather than forced through urgency.
+                            </p>
+</div>
+<!-- Secondary Image Interlude (Asymmetric) -->
+<div class="w-full md:w-3/4 ml-auto py-12">
+<div class="aspect-[4/3] rounded-xl overflow-hidden bg-surface-container-low rotate-1">
+<img class="w-full h-full object-cover opacity-80" data-alt="Artistic close-up of hands working together over architectural drawings, soft natural morning light, organic and warm atmosphere" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBioIs0G1jXZsVNIzjnOvawyIMV99iG6Dv0JZTV3jNHaF-pluOL06GllUgR9LO228z4qZYJyv8grhgwHGx6ZaP-zPLH_rIcwQeFBR0WB5daoRCDd6Xws2NmPf-Zrq15pxwVpHwi6ejMObeR7J51S7Wfhj7VBhI72XEfrWmM-wg6yPdXHelG5eHfqrHccSW9ABAl8tT-Bl25439-T_hZey6-_ckIlroSt9RKWePIO6ZProOzl16k74oDoN367vJfNbkRwZmOUVhEfJQ"/>
+</div>
+<p class="mt-6 text-secondary italic font-headline text-lg max-w-sm">Collaboration is the root system that sustains our collective vision.</p>
+</div>
+<!-- Paragraph Two -->
+<div class="relative">
+<span class="absolute -left-12 top-2 text-secondary-fixed-dim font-headline text-4xl hidden lg:block opacity-40">02</span>
+<p class="font-headline text-3xl md:text-4xl lg:text-5xl leading-tight text-primary font-light">
+                                Our community exists as a digital arboretum, a sanctuary where the complexity of the human experience is honored through ethical code and intentional dialogue. Here, the pursuit of progress never comes at the expense of the practitioner, and every contribution is valued for the life it breathes into our shared ethical architecture.
+                            </p>
+</div>
+</div>
+</div>
+</div>
+</article>
+<!-- Signature Texture Section (Subtle Callout) -->
+<section class="bg-secondary-fixed/30 py-32 mt-40">
+<div class="editorial-spacing">
+<div class="max-w-3xl mx-auto text-center">
+<div class="inline-flex items-center justify-center w-16 h-16 rounded-full bg-surface-container-lowest mb-8 text-secondary">
+<span class="material-symbols-outlined">eco</span>
+</div>
+<h2 class="font-headline text-3xl text-primary italic mb-6">"To build with care is to build for longevity."</h2>
+<div class="w-20 h-px bg-secondary/30 mx-auto"></div>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="w-full py-20 px-12 mt-0 bg-surface-container-low">
+<div class="flex flex-col md:flex-row justify-between items-center gap-8 max-w-[1440px] mx-auto">
+<p class="font-body text-sm tracking-wide leading-relaxed text-primary/50">
+                © 2024 Future Code of Care. Cultivating Digital Landscapes.
+            </p>
+<div class="flex gap-12">
+<a class="font-body text-sm text-primary/50 hover:text-secondary transition-all underline-offset-4 hover:underline decoration-secondary/30" href="#">Privacy Policy</a>
+<a class="font-body text-sm text-primary/50 hover:text-secondary transition-all underline-offset-4 hover:underline decoration-secondary/30" href="#">Ethical Code</a>
+<a class="font-body text-sm text-primary/50 hover:text-secondary transition-all underline-offset-4 hover:underline decoration-secondary/30" href="#">Contact</a>
+</div>
+</div>
+</footer>
+</body></html>
