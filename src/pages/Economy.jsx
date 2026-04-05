@@ -11,8 +11,9 @@ export default function Economy() {
             <span className="font-label text-secondary uppercase tracking-[0.2em] text-xs font-semibold mb-5 md:mb-6 block">
               The Economic Code
             </span>
-            <h1 className="font-headline text-4xl md:text-6xl lg:text-7xl text-primary max-w-4xl leading-[1.1] font-light">
-              Cultivating a <span className="italic">regenerative</span> framework for global value.
+            <h1 className="font-headline text-5xl md:text-7xl lg:text-8xl text-primary leading-[1.1] tracking-tight italic">
+              Economical Code of <br />
+              <span className="not-italic opacity-90">Care.</span>
             </h1>
           </header>
 
@@ -67,14 +68,6 @@ export default function Economy() {
                   sustain human life across time.
                 </p>
               </article>
-
-              {/* CTA */}
-              {/* <div className="mt-20 md:mt-24 flex justify-center">
-                <button className="bg-gradient-to-br from-primary to-primary-container text-on-primary px-8 md:px-10 py-4 md:py-5 rounded-xl font-body font-medium flex items-center gap-3 hover:opacity-90 transition-all shadow-lg shadow-primary/10">
-                  Download the Full Code
-                  <span className="material-symbols-outlined">arrow_downward</span>
-                </button>
-              </div> */}
             </div>
           </div>
         </div>

@@ -11,10 +11,9 @@ export default function Community() {
             <span className="text-secondary font-semibold tracking-widest text-xs uppercase mb-5 md:mb-6 block">
               Our Ethos
             </span>
-            <h1 className="font-headline text-5xl md:text-7xl lg:text-8xl text-primary leading-[1.1] font-light">
-              Community
-              <br />
-              <span className="italic">Code of Care</span>
+            <h1 className="font-headline text-5xl md:text-7xl lg:text-8xl text-primary leading-[1.1] tracking-tight italic">
+              Community Code of <br />
+              <span className="not-italic opacity-90">Care.</span>
             </h1>
           </div>
         </header>
@@ -44,11 +43,7 @@ export default function Community() {
                     01
                   </span>
                   <p className="font-headline text-2xl md:text-3xl lg:text-4xl xl:text-5xl leading-tight text-primary font-light">
-                    In the cultivation of our digital landscapes, we recognize that care is not a
-                    static policy but a living practice-one that requires constant nurturing and
-                    mutual attention. We commit to a space where professional rigor meets human
-                    softness, fostering an environment where ideas are grown with patience rather
-                    than forced through urgency.
+                    A community is built through the effort of those within it to genuinely show care for one another. The relationships we choose to invest in have the potential to shape not just how we learn, but what we do with that learning.
                   </p>
                 </div>
 
@@ -71,12 +66,8 @@ export default function Community() {
                   <span className="absolute -left-10 md:-left-12 top-2 text-secondary-fixed-dim font-headline text-4xl hidden lg:block opacity-40">
                     02
                   </span>
-                  <p className="font-headline text-2xl md:text-3xl lg:text-4xl xl:text-5xl leading-tight text-primary font-light">
-                    Our community exists as a digital arboretum, a sanctuary where the complexity of
-                    the human experience is honored through ethical code and intentional dialogue.
-                    Here, the pursuit of progress never comes at the expense of the practitioner,
-                    and every contribution is valued for the life it breathes into our shared
-                    ethical architecture.
+                  <p className="font-headline text-xl md:text-2xl lg:text-3xl xl:text-4xl leading-tight text-primary font-light">
+                    Being honest about when we are struggling, or making space for perspectives different from our own, carries more weight than it might seem in the moment. Small, consistent choices to be present and considerate are what allow a meaningful community to grow, and it is often those choices that leave the most lasting impact on the people around us.
                   </p>
                 </div>
 
@@ -86,16 +77,17 @@ export default function Community() {
         </article>
 
         {/* Quote Callout */}
-        <section className="bg-secondary-fixed/30 py-24 md:py-32 mt-32 md:mt-40">
+        <section className="bg-secondary-fixed/30 py-12 md:py-16 mt-16 md:mt-20">
           <div className="editorial-spacing">
             <div className="max-w-3xl mx-auto text-center">
               <div className="inline-flex items-center justify-center w-14 h-14 md:w-16 md:h-16 rounded-full bg-surface-container-lowest mb-7 md:mb-8 text-secondary">
                 <span className="material-symbols-outlined">eco</span>
               </div>
               <h2 className="font-headline text-2xl md:text-3xl text-primary italic mb-6">
-                "To build with care is to build for longevity."
+                "In every community, there is work to be done. In every nation, there are wounds to heal. In every heart, there is the power to do it."
               </h2>
               <div className="w-20 h-px bg-secondary/30 mx-auto" />
+              <p>- Marianne Williamson</p>
             </div>
           </div>
         </section>

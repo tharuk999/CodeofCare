@@ -65,17 +65,12 @@ export default function Home() {
         <section className="flex flex-col items-center justify-center text-center space-y-16 mb-32 md:mb-40 px-4">
           <div className="max-w-5xl">
             <p className="font-headline text-xl md:text-2xl lg:text-4xl leading-[1.6] text-primary/90 font-light italic">
-              "The Future Code of Care is not a digital mandate, but a biological resonance. We
-              believe that technology should serve as the trellis for human flourishing, allowing the
-              natural complexity of our spirits to climb toward a brighter, more integrated horizon."
+              "Reliance in its purest, highest, form is a code to live by: That every life matters. Every future matters. Taking care of each other matters. And our shared purpose is to create amazing futures for our children's children"
             </p>
           </div>
           <div className="max-w-6xl text-left border-l-4 border-secondary/20 pl-8 md:pl-12 py-4">
             <p className="font-headline text-lg md:text-xl lg:text-2xl leading-[1.8] text-on-surface-variant max-w-4xl">
-              In this emerging era, our definitions of progress must transition from extraction to
-              cultivation. We are building systems that honor the intricate web of life-recognizing
-              that the health of our economies is inseparable from the vitality of our soil, the
-              strength of our communities, and the clarity of our individual purpose.
+              Bill Jensen, Future Strong
             </p>
           </div>
         </section>
@@ -94,8 +89,7 @@ export default function Home() {
               </div>
               <h3 className="font-headline text-2xl md:text-3xl text-primary mb-4">Nature</h3>
               <p className="text-on-surface-variant text-base md:text-lg leading-relaxed max-w-lg">
-                Restoring our fundamental connection to the Earth through regenerative practices and
-                bio-mimetic design.
+                Technology must account for what it takes from the Earth, not just what it builds.
               </p>
             </Link>
 
@@ -112,8 +106,7 @@ export default function Home() {
               </div>
               <h3 className="font-headline text-2xl md:text-3xl text-primary mb-4">Self</h3>
               <p className="text-on-surface-variant text-base md:text-lg leading-relaxed">
-                Cultivating inner landscape clarity and sovereign wellness as the foundation of all
-                care.
+                A depleted builder makes depleted things; caring for yourself is part of caring for what you make.
               </p>
             </Link>
 
@@ -130,8 +123,7 @@ export default function Home() {
               </div>
               <h3 className="font-headline text-2xl md:text-3xl text-on-tertiary mb-4">Tech</h3>
               <p className="text-on-tertiary-container text-base md:text-lg leading-relaxed">
-                Developing tools that are silent, respectful, and inherently aligned with human
-                biology.
+                The code we write carries the values we held when we wrote it, so those moments deserve more attention than we usually give them.
               </p>
             </Link>
 
@@ -141,16 +133,17 @@ export default function Home() {
                 to="/community"
                 className="bg-secondary-fixed rounded-xl p-8 md:p-12 group hover:opacity-95 transition-opacity"
               >
-                <div className="mb-6 md:mb-8">
+                <div className="mb-6 md:mb-8 flex justify-between">
                   <span className="material-symbols-outlined text-4xl text-on-secondary-fixed">
                     groups
                   </span>
+                  <span className="text-on-surface-variant text-base font-headline italic">04</span>
                 </div>
                 <h3 className="font-headline text-xl md:text-2xl text-on-secondary-fixed mb-4">
                   Community
                 </h3>
                 <p className="text-on-secondary-fixed/80 text-sm md:text-base leading-relaxed">
-                  Forging resilient bonds through shared stewardship and localized wisdom exchange.
+                  Small, consistent choices to show up for one another are what allow something worth belonging to actually grow.
                 </p>
               </Link>
 
@@ -158,14 +151,15 @@ export default function Home() {
                 to="/economy"
                 className="bg-primary rounded-xl p-8 md:p-12 group hover:bg-primary-container transition-colors"
               >
-                <div className="mb-6 md:mb-8">
+                <div className="mb-6 md:mb-8 flex justify-between">
                   <span className="material-symbols-outlined text-4xl text-secondary-fixed">
                     account_balance
                   </span>
+                  <span className="text-on-tertiary-container text-base font-headline italic">05</span>
                 </div>
                 <h3 className="font-headline text-xl md:text-2xl text-white mb-4">Economy</h3>
                 <p className="text-white/70 text-sm md:text-base leading-relaxed">
-                  Transitioning toward circular models that value longevity and generational legacy.
+                  An economy is not a natural law but a design, and what it rewards and what it ignores are choices we are still making.
                 </p>
               </Link>
             </div>
@@ -175,16 +169,10 @@ export default function Home() {
         {/* Call to Action */}
         <section className="max-w-4xl mx-auto text-center mb-40 md:mb-60 px-4">
           <h2 className="font-headline text-3xl md:text-4xl text-primary mb-10 md:mb-12">
-            Will you grow with us?
+            Designer's Statement
           </h2>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 md:gap-6">
-            {/* <button className="bg-primary hover:bg-primary-container text-white px-8 md:px-10 py-4 rounded-xl font-body font-semibold transition-all duration-300 flex items-center gap-3">
-              Inquire for Membership
-              <span className="material-symbols-outlined text-sm">arrow_forward</span>
-            </button> */}
-            <button className="text-primary hover:text-secondary px-8 md:px-10 py-4 font-body font-semibold transition-all duration-300 border-b border-transparent hover:border-secondary">
-              <a href='#'> Read the Manifesto</a>
-            </button>
+              <p>test</p>
           </div>
         </section>
       </main>
