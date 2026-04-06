@@ -20,8 +20,8 @@ The Code of Care was written for CSSD2261 because of how the people building tec
 
 ## Contributing
 
-Tharuk Ranasinghe
-Andrew Cao
-Nathan Cheung
-Naveed Khan
-Hojoon Moon
+- Tharuk Ranasinghe
+- Andrew Cao
+- Nathan Cheung
+- Naveed Khan
+- Hojoon Moon
