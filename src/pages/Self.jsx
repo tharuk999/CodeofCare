@@ -38,11 +38,11 @@ export default function Self() {
         </section>
 
         {/* Full-Width Image */}
-        <section className="mb-40 md:mb-64">
+        <section className="mb-20 md:mb-32">
           <div className="w-full h-[320px] md:h-[500px] lg:h-[614px] relative overflow-hidden">
             <img
-              src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1600&auto=format&fit=crop&q=80&sat=-50"
-              alt="Minimalist calm interior space with soft natural light"
+              src="https://applescoop.org/image/wallpapers/mac/snowcapped-mountain-landscape-nature-ultrawide-wallpapers-2025-best-ultra-hd-high-resolution-4k-desktop-backgrounds-wallpapers-for-mac-linux-and-windows-pc-macos-11-03-2025-1741731828-hd-wallpaper.webp"
+              alt="Aesthetic Mountain Image"
               className="w-full h-full object-cover"
             />
             <div className="absolute inset-0 bg-primary/5" />
