@@ -28,23 +28,19 @@ export default function Economy() {
           </div>
 
           {/* Content Canvas */}
-          <div className="grid grid-cols-1 md:grid-cols-12 gap-12 items-start">
+          <div className="flex flex-col gap-12 items-start px-4">
             <div className="md:col-span-8 md:col-start-3 lg:col-span-6 lg:col-start-4">
               <article className="space-y-12 md:space-y-16">
 
                 {/* Paragraph 1 */}
                 <p className="font-headline text-2xl md:text-3xl leading-relaxed text-primary/90 font-light italic">
-                  The current economic landscape prioritizes rapid extraction over long-term
-                  vitality. Our Code of Care reimagines this paradigm, treating capital not as a
-                  finite resource to be hoarded, but as a seed that requires a healthy ecosystem to
-                  thrive. By shifting our focus from quarterly returns to generational stability, we
-                  create a landscape where growth is measured by the depth of our roots and the
-                  health of our soil.
+                  Currently, the 5 largest American technology companies hold more market value than the entire GDP of Germany, while the average worker earns below minimum wage after expenses are removed. AI hiring tools trained on historical data have been proven to systemically marginalize women and applicants of colour because the training data encoded was not safeguarded and checked. Credit scoring models used by millions of lenders have been found to assign lower scores to applicants living in historically black neighbourhoods than people with identical profiles who don’t live in such areas. This is what happens when systems are built quickly and audited rarely. These are not edge cases, we can see that the technology industry has built some of the most efficient tools for inequality that have ever existed.
+
                 </p>
 
                 {/* Asymmetric Secondary Image */}
-                <div className="relative md:-ml-32 md:mr-12 py-8 md:py-12">
-                  <div className="w-full md:w-[120%] aspect-video rounded-xl overflow-hidden bg-surface-container-low">
+                <div className="py-8">
+                  <div className="w-full aspect-video rounded-xl overflow-hidden bg-surface-container-low">
                     <img
                       src="https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=1200&auto=format&fit=crop"
                       alt="A tiny green sprout emerging from rich dark earth with soft bokeh sunlight"
@@ -60,17 +56,37 @@ export default function Economy() {
 
                 {/* Paragraph 2 */}
                 <p className="font-headline text-2xl md:text-3xl leading-relaxed text-primary/90 font-light">
-                  Sustainability is not a limit on prosperity; it is the prerequisite for its
-                  endurance. In this new architecture, value is defined by mutual resilience. We
-                  build systems that are grounded in the physical reality of our planet, ensuring
-                  that every transaction contributes to the restorative cycle of the arboretum. To
-                  care for the economy is to care for the intricate web of relationships that
-                  sustain human life across time.
+                  Amazon’s early warehouse productivity system tracked output per hour and fired workers when below quota. This system produced injury rates around double the industry average. Uber’s surge pricing forced people who could be in emergencies to pay the highest fares possible, with no alternatives. Facebook’s internal research showed that recommendation algorithms attempt to increase outrage because it drives more engagement and revenue. Each of these metrics was designed to systemically manipulate people for profit.
                 </p>
+                <div className="flex items-center gap-6 py-10 md:py-14">
+                  <span className="font-label text-xs uppercase tracking-[0.3em] text-secondary font-semibold">
+                    Closing
+                  </span>
+                  <div className="flex-1 h-px bg-outline-variant/30" />
+                </div>
+
+                <p className="font-headline text-xl md:text-2xl leading-relaxed text-primary/90 font-light">
+                  Every system described in this code of care is ultimately an economic system. The economy is what we have been building without bothering to see it. The choice to audit a hiring tool, to cap a surge, to slow down a recommendation engine, is an economic choice just as much as a technical or ethical choice. 
+                </p>
+                
               </article>
             </div>
           </div>
         </div>
+        <section className="bg-secondary-fixed/30 py-12 md:py-16 mt-16 md:mt-20">
+          <div className="editorial-spacing">
+            <div className="max-w-3xl mx-auto text-center">
+              <div className="inline-flex items-center justify-center w-14 h-14 md:w-16 md:h-16 rounded-full bg-surface-container-lowest mb-7 md:mb-8 text-secondary">
+                <span className="material-symbols-outlined">account_balance</span>
+              </div>
+              <h2 className="font-headline text-2xl md:text-3xl text-primary italic mb-6">
+                “The economy is the start and end of everything. You can't have successful education reform or any other reform if you don't have a strong economy”
+              </h2>
+              <div className="w-20 h-px bg-secondary/30 mx-auto" />
+              <p>- David Cameron</p>
+            </div>
+          </div>
+        </section>
       </main>
 
       <Footer />

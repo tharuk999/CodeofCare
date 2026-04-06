@@ -53,9 +53,9 @@ export default function Home() {
             />
             <div className="absolute inset-0 bg-gradient-to-t from-primary/50 to-transparent" />
             <div className="absolute bottom-8 md:bottom-16 left-8 md:left-16 max-w-2xl">
-              <h1 className="font-headline text-4xl md:text-5xl lg:text-7xl text-white font-bold leading-tight drop-shadow-sm">
-                Stewarding the <br />
-                <span className="italic font-normal">Next Ecology</span>
+              <h1 className="font-headline w-screen text-4xl md:text-5xl lg:text-7xl text-white font-bold leading-tight drop-shadow-sm">
+                Care is not a feature <br />
+                <span className="italic font-normal">Code with consequence</span>
               </h1>
             </div>
           </div>
@@ -167,14 +167,14 @@ export default function Home() {
         </section>
 
         {/* Call to Action */}
-        <section className="max-w-4xl mx-auto text-center mb-40 md:mb-60 px-4">
+        {/* <section className="max-w-4xl mx-auto text-center mb-40 md:mb-60 px-4">
           <h2 className="font-headline text-3xl md:text-4xl text-primary mb-10 md:mb-12">
             Designer's Statement
           </h2>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 md:gap-6">
               <p>test</p>
           </div>
-        </section>
+        </section> */}
       </main>
 
       <Footer />

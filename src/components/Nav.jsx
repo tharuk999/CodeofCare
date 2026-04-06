@@ -45,10 +45,7 @@ export default function Nav() {
         </div>
 
         {/* Right side */}
-        {/* <div className="flex items-center gap-4">
-          <span className="material-symbols-outlined text-primary cursor-pointer hover:opacity-70 transition-opacity hidden md:block">
-            account_circle
-          </span>
+        <div className="flex items-center gap-4 lg:hidden md:hidden">
           <button
             className="md:hidden p-1"
             onClick={() => setMenuOpen(!menuOpen)}
@@ -58,7 +55,7 @@ export default function Nav() {
               {menuOpen ? 'close' : 'menu'}
             </span>
           </button>
-        </div> */}
+        </div>
       </div>
 
       {/* Mobile Menu */}

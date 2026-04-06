@@ -122,7 +122,7 @@ export default function Tech() {
         </section>
 
         {/* Bottom Quote */}
-        <section className="mt-24 md:mt-40 mb-10 md:mb-20 px-6 md:px-12 text-center">
+        <section className="px-6 md:px-12 text-center">
           <div className="max-w-2xl mx-auto py-16 md:py-24 border-y border-outline-variant/10">
             <span className="material-symbols-outlined text-secondary text-4xl mb-6 md:mb-8 block">
               auto_awesome
@@ -132,7 +132,7 @@ export default function Tech() {
               the fabric of everyday life until they are indistinguishable from it."
             </blockquote>
             <div className="w-1/3 h-px bg-secondary/30 mx-auto mt-6 md:mt-8" />
-            <p className="font-headline text-primary/50 mt-4">— Mark Weiser</p>
+            <p className="font-headline text-primary/50 mt-4">- Mark Weiser</p>
           </div>
         </section>
       </main>

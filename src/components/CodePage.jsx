@@ -18,7 +18,7 @@ export default function CodePage({
   const [pledged, setPledged] = useState(false);
   const [expanded, setExpanded] = useState(null);
 
-  // darkAccent is used for text on light backgrounds — must be dark enough for contrast
+  // darkAccent is used for text on light backgrounds  must be dark enough for contrast
   const textAccent = darkAccent || accentColor;
 
   return (

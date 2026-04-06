@@ -3,7 +3,7 @@
 
 @import "tailwindcss";
 
-/* ─── Design Tokens: Tailwind v4 uses @theme instead of tailwind.config.js ─── */
+/*  Design Tokens: Tailwind v4 uses @theme instead of tailwind.config.js  */
 @theme {
   /* Colors */
   --color-primary: #173124;
@@ -71,7 +71,7 @@
   --radius-3xl: 2.5rem;
 }
 
-/* ─── Base Styles ─── */
+/*  Base Styles  */
 @layer base {
   html {
     scroll-behavior: smooth;
@@ -91,7 +91,7 @@
   }
 }
 
-/* ─── Custom Utilities ─── */
+/*  Custom Utilities  */
 @layer utilities {
   .material-symbols-outlined {
     font-family: 'Material Symbols Outlined';
