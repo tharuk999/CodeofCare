@@ -34,7 +34,7 @@ export default function Economy() {
 
                 {/* Paragraph 1 */}
                 <p className="font-headline text-2xl md:text-3xl leading-relaxed text-primary/90 font-light italic">
-                  Currently, the 5 largest American technology companies hold more market value than the entire GDP of Germany, while the average worker earns below minimum wage after expenses are removed. AI hiring tools trained on historical data have been proven to systemically marginalize women and applicants of colour because the training data encoded was not safeguarded and checked. Credit scoring models used by millions of lenders have been found to assign lower scores to applicants living in historically black neighbourhoods than people with identical profiles who don’t live in such areas. This is what happens when systems are built quickly and audited rarely. These are not edge cases, we can see that the technology industry has built some of the most efficient tools for inequality that have ever existed.
+                  Currently, the 7 largest American technology companies hold more market value than the entire GDP of Germany, while the average worker earns below minimum wage after expenses are removed. AI hiring tools trained on historical data have been proven to systemically marginalize women and applicants of colour because the training data encoded was not safeguarded and checked. Credit scoring models used by millions of lenders have been found to assign lower scores to applicants living in historically black neighbourhoods than people with identical profiles who don’t live in such areas. This is what happens when systems are built quickly and audited rarely. These are not edge cases, we can see that the technology industry has built some of the most efficient tools for inequality that have ever existed.
 
                 </p>
 
@@ -87,6 +87,31 @@ export default function Economy() {
             </div>
           </div>
         </section>
+
+        <div className='mt-30 items-end w-full flex justify-center'>
+          <div className='items-end w-2/3'>
+              <p className='text-xl font-headline font-light'>Sources: </p>
+              <p className='editorial-spacing font-headline font-light'>
+              “Magnificent Seven Surpass EU GDP: Is This a Tech Bubble Warning?” Yahoo Finance Canada, 4 Oct. 2025,
+              <a href='https://ca.finance.yahoo.com/news/magnificent-seven-surpass-eu-gdp-050117686.html' className='text-[#6495ed] hover:text-[#151d1c] duration-200'> https://ca.finance.yahoo.com/news/magnificent-seven-surpass-eu-gdp-050117686.html</a>
+              </p><br/>
+              
+              <p className='editorial-spacing font-headline font-light'>
+              “AI Hiring Tools Exhibit Complex Gender and Racial Biases.” VoxDev,
+              <a href='https://voxdev.org/topic/technology-innovation/ai-hiring-tools-exhibit-complex-gender-and-racial-biases' className='text-[#6495ed] hover:text-[#151d1c] duration-200'> https://voxdev.org/topic/technology-innovation/ai-hiring-tools-exhibit-complex-gender-and-racial-biases</a>
+              </p><br/>
+
+              <p className='editorial-spacing font-headline font-light'>
+              “News: Sanders Releases Sweeping Report Exposing How Amazon’s Obsession with Speed Injures Workers at Unprecedented Rates.” U.S. Senate Committee on Health, Education, Labor & Pensions,
+              <a href='https://www.help.senate.gov/dem/newsroom/press/news-sanders-releases-sweeping-report-exposing-how-amazons-obsession-with-speed-injures-workers-at-unprecedented-rates' className='text-[#6495ed] hover:text-[#151d1c] duration-200'> https://www.help.senate.gov/dem/newsroom/press/news-sanders-releases-sweeping-report-exposing-how-amazons-obsession-with-speed-injures-workers-at-unprecedented-rates</a>
+              </p><br/>
+              
+              <p className='editorial-spacing font-headline font-light'>
+              “Uber Chooses Surge Price Cap in Emergencies.” ABC News,
+              <a href='https://abcnews.com/Business/uber-chooses-surge-price-cap-emergencies/story?id=28494303' className='text-[#6495ed] hover:text-[#151d1c] duration-200'> https://abcnews.com/Business/uber-chooses-surge-price-cap-emergencies/story?id=28494303</a>
+              </p><br/>
+            </div>
+          </div>
       </main>
 
       <Footer />

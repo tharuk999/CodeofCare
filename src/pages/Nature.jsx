@@ -58,9 +58,21 @@ export default function Nature() {
           </div>
           <div className='mt-30 items-end'>
             <p className='text-xl font-headline font-light'>Sources: </p>
-            <a href='https://news.mit.edu/2025/explained-generative-ai-environmental-impact-0117' className='editorial-spacing font-headline font-light'>https://news.mit.edu/2025/explained-generative-ai-environmental-impact-0117</a><br/>
-            <a href='https://www.unep.org/news-and-stories/story/ai-has-environmental-problem-heres-what-world-can-do-about' className='editorial-spacing font-headline font-light'>https://www.unep.org/news-and-stories/story/ai-has-environmental-problem-heres-what-world-can-do-about</a><br/>
-            <a href='https://earth.org/the-green-dilemma-can-ai-fulfil-its-potential-without-harming-the-environment/' className='editorial-spacing font-headline font-light'>https://earth.org/the-green-dilemma-can-ai-fulfil-its-potential-without-harming-the-environment/</a><br/>
+            <p className='editorial-spacing font-headline font-light'>
+            Zewe, A. (2025, January 17). Explained: Generative AI’s environmental impact. MIT News.
+            <a href='https://news.mit.edu/2025/explained-generative-ai-environmental-impact-0117' className='text-[#6495ed] hover:text-[#151d1c] duration-200'> https://news.mit.edu/2025/explained-generative-ai-environmental-impact-0117</a>
+            </p><br/>
+            
+            <p className='editorial-spacing font-headline font-light'>
+            AI has an environmental problem. here’s what the world can do about that. United Nations Environment Programme. (2025, November 13).
+            <a href='https://www.unep.org/news-and-stories/story/ai-has-environmental-problem-heres-what-world-can-do-about' className='text-[#6495ed] hover:text-[#151d1c] duration-200'> https://www.unep.org/news-and-stories/story/ai-has-environmental-problem-heres-what-world-can-do-about</a>
+            </p><br/>
+
+            <p className='editorial-spacing font-headline font-light'>
+            Kanungo, A. (2023, July 18). The Green Dilemma: Can AI Fulfil Its Potential Without Harming the Environment?. Earth.Org.
+            <a href='https://www.unep.org/news-and-stories/story/ai-has-environmental-problem-heres-what-world-can-do-about' className='text-[#6495ed] hover:text-[#151d1c] duration-200'> https://earth.org/the-green-dilemma-can-ai-fulfil-its-potential-without-harming-the-environment</a>
+            </p><br/>
+
           </div>
         </section>
       </main>
