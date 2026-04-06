@@ -1,16 +1,27 @@
-# React + Vite
+# Code of Care
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A website presenting the Future Code of Care, a set of principles for building technology with intention, accountability, and humanity. The Code covers six areas: Self, Community, Technology, Nature, and Economy.
 
-Currently, two official plugins are available:
+## Getting Started
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+```bash
+# Clone the repository and install dependencies:
+npm install
 
-## React Compiler
+# Run the development server:
+npm run dev
+```
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+The site will be available at `http://localhost:5173`.
 
-## Expanding the ESLint configuration
+## About
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+The Code of Care was written for CSSD2261 because of how the people building technology are making economic, social, and ethical decisions every day without thinking of them that way. This site exists to change that. It is written for builders, students, and anyone who has ever shipped something into the world and wondered what it was actually doing there.
+
+## Contributing
+
+Tharuk Ranasinghe
+Andrew Cao
+Nathan Cheung
+Naveed Khan
+Hojoon Moon
